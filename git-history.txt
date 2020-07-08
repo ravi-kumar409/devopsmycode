@@ -1,0 +1,153 @@
+    1  sudo apt-get install software-properties-common
+    2  sudo add-apt-repository ppa:git-core/ppa -y
+    3  sudo apt-get update
+    4  sudo apt-get install git -y
+    5  git --version
+    6  exit
+    7  git --version
+    8  exit
+    9  cat /etc/os-release
+   10  ls -l
+   11  exit
+   12  logout
+   13  pwd
+   14  ls -l
+   15  sudo apt-get install software-properties-common
+   16  sudo add-apt-repository ppa:git-core/ppa -y
+   17  sudo apt-get update
+   18  sudo apt-get install git -y
+   19  git  --versino
+   20  git --version
+   21  pwd
+   22  ls -l
+   23  cd snap/
+   24  ls -l
+   25  cd ..
+   26  pwd
+   27  cd snap/
+   28  pwd
+   29  cd..
+   30  cd ..
+   31  pwd
+   32  git config --global user.name ravikumar
+   33  git config --global user.email ravi.kumar409@gmail.com
+   34  git config --global help.autocorrect 1
+   35  git config --global core.editor vim
+   36  git config --list
+   37  ls -l
+   38  mkdir mycode
+   39  ls -l
+   40  cd mycode/
+   41  ls -l
+   42  pwd
+   43  git init
+   44  ls -l
+   45  git status
+   46  history
+   47  git config --list
+   48  touch new.java
+   49  ls -l
+   50  git status
+   51  git commit -m "new.java created"
+   52  git add .
+   53  git status
+   54  git commit -m "new.java created"
+   55  git status
+   56  git log
+   57  ls -l
+   58  clear
+   59  ls -l
+   60  touch 4.java hello.c new.xml
+   61  git status
+   62  git add .
+   63  git status
+   64  git commit  -m "second commit"
+   65  git log
+   66  ls -l
+   67  vi new.java
+   68  git status
+   69  rm new.xml
+   70  ls -l
+   71  git status
+   72  git add .
+   73  git status
+   74  vi hello.c
+   75  git status
+   76  git add .
+   77  git status
+   78  git commit -m "third commit"
+   79  git log
+   80  ls -l
+   81  git status
+   82  git touch ravik.java
+   83  touch ravik.javaa
+   84  git status
+   85  git add .
+   86  git status
+   87  git restore --staged ravik.javaa
+   88  git status
+   89  git show f204c4d29ac86da55f66a4353560aae46d96a921
+   90  git status
+   91  git add .
+   92  git commit -m "new"
+   93  git status
+   94  touch .gitignore
+   95  ls -l
+   96  ls -al
+   97  git status
+   98  vi .gitignore
+   99  git status
+  100  git add .
+  101  git commit -m "added .gitignore"
+  102  touch sachin.log rk.log ravi.info
+  103  git status
+  104  cat .gitignore
+  105  git status
+  106  ls -l
+  107  git status
+  108  mkdir test/
+  109  cd test
+  110  touch abc.java new1.xml
+  111  git status
+  112  ls -l
+  113  git status
+  114  cd ..
+  115  git status
+  116  ls -l
+  117  git status
+  118  git log --oneline
+  119  git tag -a v1.5 -m "version 1.5"
+  120  git log --oneline
+  121  tag -a v1.0 0486972 -m "version 1.0"
+  122  git log --oneline
+  123  git tag -a v1.0 0486972 -m "version 1.0"
+  124  git log --oneline
+  125  git remote -v
+  126  git remote add origin https://github.com/ravi-kumar409/devopsmycode.git
+  127  git remote -v
+  128  git push -u origin master
+  129  git push -u origin master --tags
+  130  history
+  131  ls -l
+  132  cd ..
+  133  ls -l
+  134  pwd
+  135  ls -l
+  136  rm -r mycode/
+  137  ls -l
+  138  git clone git remote add origin https://github.com/ravi-kumar409/devopsmycode.git
+  139  git clone https://github.com/ravi-kumar409/devopsmycode.git
+  140  ls -l
+  141  git remote -v
+  142  ls -l
+  143  git remote -v
+  144  cd devopsmycode/
+  145  git remote -v
+  146  git log --oneline
+  147  ls -l
+  148  git log --oneline
+  149  git pull
+  150  git log --oneline
+  151  cat hello.c
+  152  history
+  153  history > git-history.txt
